@@ -1,11 +1,11 @@
 @media (max-width: 600px) {
   .container {
     height: auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   .card {
     flex-direction: column;
-    margin: 0 auto;
+    margin: 40px auto;
 
     max-width: 324px;
     height: 780px;
@@ -44,6 +44,6 @@
   }
 
   .attribution {
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 }
