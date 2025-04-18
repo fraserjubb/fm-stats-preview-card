@@ -108,12 +108,14 @@ Containers
 
 .card {
   display: flex;
-  border-radius: var(--8px);
+  background-color: var(--clr-primary-bg-card);
 
   margin: 0 165px;
   max-width: 1100px;
   height: 446px;
-  background-color: var(--clr-primary-bg-card);
+
+  border-radius: var(--8px);
+  overflow: hidden;
 }
 
 .card-left,
@@ -123,10 +125,6 @@ Containers
 
 .card-left {
   padding: 72px;
-}
-
-.card-right {
-  /* max-width: 540px; */
 }
 
 .card__stats-container {
@@ -143,9 +141,8 @@ Card Left Styles
   font-size: var(--36px);
   font-weight: 700;
   color: white;
-  margin-bottom: 25px;
-
   letter-spacing: 1px;
+  margin-bottom: 25px;
 }
 
 .card__title span {
