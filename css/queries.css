@@ -29,6 +29,7 @@
     font-size: var(--28px);
     padding: 0 0.5px;
     margin-bottom: var(--16px);
+    letter-spacing: 0.5px;
   }
 
   .card__description {
