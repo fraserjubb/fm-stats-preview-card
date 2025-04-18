@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    margin: 88px 24px;
+
+    max-width: 324px;
+    height: 780px;
+  }
+
+  .card-left {
+    padding: 31px;
+    text-align: center;
+  }
+
+  .card-right {
+    order: -1;
+  }
+
+  .card__stats-container {
+    flex-direction: column;
+  }
+
+  .card__image {
+    max-width: 327px;
+    /* height: 240px; */
+  }
+
+  .card__title {
+    font-size: var(--28px);
+    padding: 0 0.5px;
+    margin-bottom: var(--16px);
+  }
+
+  .card__description {
+    margin-bottom: 40px;
+  }
+
+  .card__stats-container {
+    gap: 24px;
+  }
+}
