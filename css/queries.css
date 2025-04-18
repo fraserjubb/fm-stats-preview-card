@@ -1,14 +1,18 @@
 @media (max-width: 600px) {
+  .container {
+    height: auto;
+    margin-top: 40px;
+  }
   .card {
     flex-direction: column;
-    margin: 88px 24px;
+    margin: 0 auto;
 
     max-width: 324px;
     height: 780px;
   }
 
   .card-left {
-    padding: 31px;
+    padding: 40px 31px 31px;
     text-align: center;
   }
 
@@ -22,7 +26,6 @@
 
   .card__image {
     max-width: 327px;
-    /* height: 240px; */
   }
 
   .card__title {
@@ -38,5 +41,9 @@
 
   .card__stats-container {
     gap: 24px;
+  }
+
+  .attribution {
+    margin-top: 40px;
   }
 }
