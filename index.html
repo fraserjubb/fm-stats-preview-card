@@ -39,7 +39,11 @@
 
         <div class="card-right">
           <div class="image-wrapper">
-            <img class="card__image" src="/assets/images/image-header-desktop.jpg" alt="Photo of happy employees at work" />
+            <picture>
+              <source media="(max-width: 600px)" srcset="/assets/images/image-header-mobile.jpg" type="image/jpg" />
+              <source srcset="/assets/images/image-header-desktop.jpg" type="image/jpg" />
+              <img class="card__image" src="/assets/images/image-header-desktop.jpg" alt="Photo of happy employees at work" />
+            </picture>
           </div>
         </div>
       </section>
