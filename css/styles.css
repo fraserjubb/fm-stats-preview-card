@@ -120,7 +120,7 @@ Containers
 
 .card-left,
 .card-right {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .card-left {
