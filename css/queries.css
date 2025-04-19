@@ -11,6 +11,12 @@
     height: 780px;
   }
 
+  .card-left,
+  .card-right {
+    flex: 0;
+    width: 100%;
+  }
+
   .card-left {
     padding: 40px 31px 31px;
     text-align: center;
