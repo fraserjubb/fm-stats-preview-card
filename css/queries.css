@@ -1,14 +1,19 @@
-@media (max-width: 600px) {
+@media (max-width: 1142px) {
+  .card__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1026px) {
   .container {
     height: auto;
-    /* margin-top: 40px; */
   }
   .card {
     flex-direction: column;
     margin: 40px auto;
 
-    max-width: 324px;
-    height: 780px;
+    max-width: 540px;
+    height: auto;
   }
 
   .card-left,
@@ -18,7 +23,7 @@
   }
 
   .card-left {
-    padding: 40px 31px 31px;
+    padding: 40px auto;
     text-align: center;
   }
 
@@ -31,7 +36,7 @@
   }
 
   .card__image {
-    max-width: 327px;
+    max-width: 540px;
   }
 
   .card__title {
@@ -43,13 +48,41 @@
 
   .card__description {
     margin-bottom: 40px;
+    max-width: 100%;
   }
 
   .card__stats-container {
     gap: 24px;
   }
+}
 
-  .attribution {
-    /* margin-top: 40px; */
+@media (max-width: 540px) {
+  .card {
+    max-width: 324px;
+    height: 780px;
+  }
+
+  .card__image {
+    max-width: 324px;
+  }
+
+  .card-left {
+    padding: 40px 31px 31px;
+  }
+}
+
+/* IPAD PRO AND SIMILAR DEVICES */
+@media (min-width: 56.25em) and (min-height: 84.38em) {
+  .card {
+    max-width: 720px;
+  }
+
+  .card__image {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .card__description {
+    max-width: 100%;
   }
 }
