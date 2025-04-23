@@ -22,8 +22,8 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 
 ### Project Links
 
-- Solution URL: [Click Here](url)
-- Live Site URL: [Click Here](url)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/stats-preview-card-solution---challenge-8-f435RvLxOr)
+- Live Site URL: [Click Here](https://fm-statspreviewcard-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
 ## My Process
@@ -68,7 +68,7 @@ In this particular project:
 
 ## Noteworthy Updates Since Initial Submission
 
-1. No major updates since submitted.
+1. Color given in brief for image overlay not correct so looks slightly different than example.
 
 ## Connect With Me
 
