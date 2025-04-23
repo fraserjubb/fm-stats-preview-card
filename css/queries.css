@@ -5,7 +5,7 @@ LAPTOP DEVICES
 */
 @media (max-width: 1142px) {
   .card__title {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 
@@ -15,9 +15,9 @@ LAPTOP DEVICES
   }
   .card {
     flex-direction: column;
-    margin: 40px auto;
+    margin: 2.5rem auto;
 
-    max-width: 540px;
+    max-width: 33.75rem;
     height: auto;
   }
 
@@ -28,7 +28,7 @@ LAPTOP DEVICES
   }
 
   .card-container-text {
-    padding: 40px auto;
+    padding: 2.5rem auto;
     text-align: center;
   }
 
@@ -41,7 +41,7 @@ LAPTOP DEVICES
   }
 
   .card__image {
-    max-width: 540px;
+    max-width: 33.75rem;
   }
 
   .card__title {
@@ -52,12 +52,12 @@ LAPTOP DEVICES
   }
 
   .card__description {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     max-width: 100%;
   }
 
   .card__stats-container {
-    gap: 24px;
+    gap: var(--24px);
   }
 }
 
@@ -69,16 +69,16 @@ MOBILE DEVICES
 
 @media (max-width: 540px) {
   .card {
-    max-width: 324px;
-    height: 780px;
+    max-width: 20.25rem;
+    height: 48.75rem;
   }
 
   .card__image {
-    max-width: 324px;
+    max-width: 20.25rem;
   }
 
   .card-container-text {
-    padding: 40px 31px 31px;
+    padding: 2.5rem 1.938rem 1.938rem;
   }
 }
 

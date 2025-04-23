@@ -110,9 +110,9 @@ Containers
   display: flex;
   background-color: var(--clr-primary-bg-card);
 
-  margin: 0 50px;
-  max-width: 1100px;
-  height: 446px;
+  margin: 0 3.125rem;
+  max-width: 68.75rem;
+  height: 27.88rem;
 
   border-radius: var(--8px);
   overflow: hidden;
@@ -125,12 +125,12 @@ Containers
 }
 
 .card-container-text {
-  padding: 72px;
+  padding: 4.5rem;
 }
 
 .card__stats-container {
   display: flex;
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 /* 
@@ -143,7 +143,7 @@ Card Text Styles
   font-weight: 700;
   color: white;
   letter-spacing: 1px;
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 }
 
 .card__title span {
@@ -151,16 +151,16 @@ Card Text Styles
 }
 
 .card__description {
-  max-width: 374px;
+  max-width: 23.38rem;
   line-height: 1.65;
-  margin-bottom: 72px;
+  margin-bottom: 4.5rem;
 }
 
 /* Card Stats */
 .card__stats {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--10px);
 }
 
 .card__stats-heading {
@@ -183,7 +183,7 @@ Card Image Styles
 **** 
 */
 .card__image {
-  max-width: 540px;
+  max-width: 33.75rem;
 }
 
 .image-wrapper {
