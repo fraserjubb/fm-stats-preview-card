@@ -118,13 +118,13 @@ Containers
   overflow: hidden;
 }
 
-.card-left,
-.card-right {
+.card-container-text,
+.card-container-image {
   flex: 1;
   width: 50%;
 }
 
-.card-left {
+.card-container-text {
   padding: 72px;
 }
 
@@ -135,7 +135,7 @@ Containers
 
 /* 
 ****
-Card Left Styles
+Card Text Styles
 **** 
 */
 .card__title {
@@ -179,7 +179,7 @@ Card Left Styles
 
 /* 
 ****
-Card Right Styles
+Card Image Styles
 **** 
 */
 .card__image {
