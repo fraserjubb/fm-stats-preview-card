@@ -1,3 +1,8 @@
+/*
+****** 
+LAPTOP DEVICES
+****** 
+*/
 @media (max-width: 1142px) {
   .card__title {
     font-size: 30px;
@@ -56,6 +61,12 @@
   }
 }
 
+/*
+****** 
+MOBILE DEVICES
+****** 
+*/
+
 @media (max-width: 540px) {
   .card {
     max-width: 324px;
@@ -71,7 +82,11 @@
   }
 }
 
-/* IPAD PRO AND SIMILAR DEVICES */
+/*
+****** 
+IPAD PRO AND SIMILAR DEVICES
+****** 
+*/
 @media (min-width: 56.25em) and (min-height: 84.38em) {
   .card {
     max-width: 720px;
