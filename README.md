@@ -1,6 +1,6 @@
-# FM - <Challenge Name> Solution - Fraser Jubb
+# FM - Stats Preview Card Solution - Fraser Jubb
 
-This is a solution to [this challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/<link>).
+This is a solution to [this challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
 ## 📖 Table of contents
 
@@ -10,7 +10,6 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Noteworthy Updates Since Initial Submission](#noteworthy-updates-since-initial-submission)
 - [Connect With Me](#connect-with-me)
@@ -39,22 +38,33 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 
 In this particular project:
 
-1.
+1. Stopping the habit of adding classes I don’t need i.e. inside of `<span>` elements, and using descendent combinators instead.
+
+2. Figured out how to analyse figma files better so that margins and paddings can be calculated using the x/y coordinates/dimensions when notes are not provided.
+
+3. Deepened my understanding of the `<picture>` element using mdn documentation so I am now more comfortable adding it on my own without needing to look up examples.
+
+4. Used an image wrapper class to add the overlay color to the image instead of manipulating it directly:
 
 ```css
-<Code proud of>
+.image-wrapper {
+  position: relative;
+}
+.image-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-primary-accent);
+  opacity: 0.45;
+}
 ```
-
-### Continued Development
-
-After submitting this project, I wish to develop the following:
-
-1. <text>
 
 ### Useful Resources
 
-- Nothing of note used for this project.
-- [<Text to appear> (<Media Type>)](link) - <description of how it helped>
+- [Picture Element (mdn documentation)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture).
 
 ## Noteworthy Updates Since Initial Submission
 
@@ -70,4 +80,3 @@ After submitting this project, I wish to develop the following:
 <a href="mailto:fraserjubb.dev@gmail.com"><img height="30px" align="left" alt="Gmail" style="padding-right:10px" title="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white"/></a>
 
 <br/>
-# fm-stats-preview-card
