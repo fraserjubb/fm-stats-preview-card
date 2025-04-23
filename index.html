@@ -39,7 +39,11 @@
 
         <div class="card-container-image image-wrapper">
           <picture>
+            <source media="(max-width: 1026px)" srcset="/assets/images/image-header-mobile.avif" type="image/avif" />
+            <source media="(max-width: 1026px)" srcset="/assets/images/image-header-mobile.webp" type="image/webp" />
             <source media="(max-width: 1026px)" srcset="/assets/images/image-header-mobile.jpg" type="image/jpg" />
+            <source srcset="/assets/images/image-header-desktop.avif" type="image/avif" />
+            <source srcset="/assets/images/image-header-desktop.webp" type="image/webp" />
             <source srcset="/assets/images/image-header-desktop.jpg" type="image/jpg" />
             <img class="card__image" src="/assets/images/image-header-desktop.jpg" alt="Photo of happy employees at work" />
           </picture>
